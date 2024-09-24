@@ -12,6 +12,12 @@ my-web-app/
     templates/  
 
 In **Chart.yml** Update metadata about your application.  
+```
+apiVersion: v2
+name: my-web-app
+description: Nginx server
+version: 0.1.0
+```
 
 In **values.yml** Define configurable values for your application.
 ``` replicaCount: 2
